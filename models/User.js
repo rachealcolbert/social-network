@@ -3,8 +3,6 @@ const {
     model
 } = require('mongoose');
 
-const dateFormat = require('../utils/dateFormat');
-
 const UserSocial = new Schema({
     username: {
         type: String,
