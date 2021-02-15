@@ -5,7 +5,7 @@ const {
     createUser,
     updateUser,
     deleteUser
-} = require('../../controllers/thought-controller');
+} = require('../../controllers/user-controller');
 
 router
     .route('/')
