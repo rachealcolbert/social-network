@@ -14,9 +14,8 @@ const UserSocial = new Schema({
         type: String,
         unique: true,
         required: true,
-        validate: {
-            isEmail: true
-        }
+        validate: [validateEmail, 'Please enter a valid email'],
+        match: [/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/, 'Please enter a valid email']
     },
     thoughts: [{
         type: Schema.Types.ObjectId,
