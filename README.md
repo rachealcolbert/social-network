@@ -4,10 +4,10 @@ This is an API for a social network web application where users can share their 
 
 **Link to GitHub Repo:** https://github.com/rachealcolbert/social-network
 
-**Link to Walk Through Video:**
+**Link to Walk Through Video:** https://drive.google.com/file/d/1NK-d8-GiNkQRrWRTBRQGcPGBHTbuxx6l/view
 
-**Screenshot of Application:**
-![Image of Application](image/technews.png)
+**Screenshot of Code:**
+![Image of Code](public/image.png)
 
 ## Description
 
